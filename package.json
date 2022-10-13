@@ -16,8 +16,23 @@
   ],
   "author": "Barcia",
   "license": "MIT",
+  "bin": {
+    "random-msg": "./bin/global.js"
+  },
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/Jebarcia77/npmCourse/issues"
   },
-  "homepage": "https://github.com/Jebarcia77/npmCourse#readme"
+  "homepage": "https://github.com/Jebarcia77/npmCourse#readme",
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "date-fns": "^2.29.3",
+    "webpack": "^5.74.0"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.25.0"
+  }
 }
